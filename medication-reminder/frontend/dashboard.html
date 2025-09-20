@@ -1,0 +1,31 @@
+<!-- frontend/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medication Reminder App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="dashboard-container">
+    <h2>Welcome to Your Medication Dashboard</h2>
+
+    <form id="reminder-form" class="form-container">
+      <input type="text" id="med-name" placeholder="Medication Name" required />
+      <input type="time" id="med-time" required />
+      <input type="date" id="med-date" required />
+      <button type="submit">Add Reminder</button>
+    </form>
+
+    <hr />
+
+    <div id="reminders-list">
+      <ul id="reminders"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

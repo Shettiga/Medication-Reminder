@@ -1,0 +1,5 @@
+Flask
+Flask-Cors
+pymongo        # if using MongoDB
+flask-bcrypt
+
